@@ -6,3 +6,25 @@
 <link rel="stylesheet" href="style.css" media="screen" />
 <p style="font-size:20vw">Building your own Bebsite </p>
 </head>
+<body>
+  <p> Building a website like mine is simple, cheap, and fast</p>
+  <p> The purpose of this tutorial is to set up a github pages with a custom domain name. This tutorial was wirtten by Ryan Kelsey to assist people in the creation of custom domain websites</p>
+  <p> I will divide this tutorial into steps</p>
+  <p/>
+  <p/>
+  <p>1) Find and buy domain name.</p>
+    <p>       GoDaddy.com and NameCheap.com are both excellent options</p>
+  <p>2) Change DNS settings of your domain name</p>
+    <p>       Within the settings of wherever you purchased your domain name, there will be DNS settings</p>
+    <p>       We will make the following 5 changes</p>
+    <p>          a) ADD an 'A' type rule, pointing to current domain name (commonly an @) on github's IP of 185.199.108.153</p>
+    <p>          b) ADD an 'A' type rule, pointing to current domain name (commonly an @) on github's IP of 185.199.109.153</p>
+    <p>          c) ADD an 'A' type rule, pointing to current domain name (commonly an @) on github's IP of 185.199.110.153</p>
+    <p>          d) ADD an 'A' type rule, pointing to current domain name (commonly an @) on github's IP of 185.199.111.153</p>
+    <p>          This routes the traffic to github's servers</p>
+    <p>          e) ADD a 'CNAME' rule, with a name of www, and a value of your github page (user.github.io)</p>
+  <p>3) Set up your github pages repository. Instructions can be found at https://pages.github.com</p>
+  <p>4) Add a file named CNAME to your github page directory. Within this file write your domain name (example: ryankelsey.com)</p>
+  <p>5) Commit changes</p>
+  <p>6) Enable http protocol in your github pages directory. Settings->Pages->Enable HTTP[*]</p>
+  <p>7) Enjoy your own website with your own domain name</p>
