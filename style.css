@@ -19,11 +19,9 @@ a:link:hover {
     transition: all 0.3s ease;
     text-decoration: underline;
     cursor: pointer;
-    cursor: hand;
 }
 input[type=submit], button {
     cursor: pointer;
-    cursor: hand;
 }
 .column {
   float: left;
