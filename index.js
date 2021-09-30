@@ -19,7 +19,7 @@ function openCity(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-window.onload = function(){
+function deselectAll(){
   var tabcontent, tablinks, i;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
