@@ -8,12 +8,27 @@
 </head>
 
 <body>
-<h1>Hello</h1>
-<p>My Name is Ryan Kelsey and this is the start to my website </p>
-<p></p>
-<p>This is a static website, domain name purchased on GoDaddy and routed to a github pages</p>
-<p> Why? Well using a godaddy template is not impressive.</p>
-<p> Sadly I am limited by the fact this is a client side website only, but I am looking into hosting my own backend with google cloud services!</p>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 </body>
 
 </html>
