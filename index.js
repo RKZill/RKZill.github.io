@@ -19,9 +19,9 @@ function openCity(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-function deselectAll(){
+/*function deselectAll(){
   var tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-}
+}*/
