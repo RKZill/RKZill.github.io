@@ -58,7 +58,6 @@ input[type=submit], button {
   border: 1px solid #ccc;
   border-top: none;
 }
-</style>
 @media(max-width: 900px) {
     html {
         font-size: 14px !important;
