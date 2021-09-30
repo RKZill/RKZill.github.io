@@ -1,66 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <style>
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-  }
-
-  .tab button:hover {
-    background-color: #ddd;
-  }
-
-  .tab button.active {
-    background-color: #ccc;
-  }
-
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-  </style>
+<head>
 
 <body>
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Welcome')">Welcome</button>
-  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
-  <button class="tablinks" onclick="openTab(event, 'Contacts')">Contacts</button>
-</div>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  </div>
 
-<div id="Welcome" class="tabcontent">
-  <h3>Welcome</h3>
-  <p>Hello. My name is Ryan Kelsey and welcome to my webpage.</p>
-  <p>I am in my third year studying computer engineering.</p>
-</div>
+  <!-- Tab content -->
+  <div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
 
-<div id="About" class="tabcontent">
-  <h3>About Me</h3>
-  <p>Placeholder</p>
-</div>
+  <div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
 
-<div id="Contacts" class="tabcontent">
-  <h3>My Contacts</h3>
-  <p>rkelsey@uoguelhp.ca</p>
-</div>
-
-<script type="text/javascript" src="index.js"></script>
+  <div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
 </body>
+</head>
 
 
 
