@@ -15,14 +15,7 @@ body {
     background-color: #152238;
     color: #E5F5F8;
 }
-a:link:hover {
-    transition: all 0.3s ease;
-    text-decoration: underline;
-    cursor: pointer;
-}
-input[type=submit], button {
-    cursor: pointer;
-}
+
 .column {
   float: left;
   width: 50%;
