@@ -16,18 +16,6 @@ body {
     color: #E5F5F8;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media(max-width: 900px) {
     html {
         font-size: 14px !important;
