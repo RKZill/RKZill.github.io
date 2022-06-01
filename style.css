@@ -7,6 +7,12 @@ html {
     background-color: #152238;
 }
 
+.rounded_square_green{
+    border-radius:25% 25% 25% 25%;
+    color: 25523B;
+    min-height:50px;
+    min-width:50px;
+}
 
 body {
     height: 100%;
