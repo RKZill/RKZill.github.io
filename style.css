@@ -1,17 +1,39 @@
-html {
-    width: 60%;
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto;
-    font-size: 16px;
-    background-color: #152238;
+
+
+.rounded_square_green_350_220_bottom {
+    border-radius: 25% 25% 25% 25%;
+    color: #25523B;
+    background-color: #25523B;
+    min-height: 100px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+    z-index: -2;
+    position: relative;
+    margin-top: 190px;
+    margin-left: -20px;
+}
+.rounded_square_green_350_220_top {
+    border-radius: 25% 25% 25% 25%;
+    color: #25523B;
+    background-color: #25523B;
+    min-height: 100px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+    z-index: -1;
+    position: relative;
+    margin-top: -370px;
+    margin-left: 140px;
 }
 
-.rounded_square_green{
-    border-radius:25% 25% 25% 25%;
-    color: #25523B;
-    min-height:50px;
-    min-width:50px;
+
+ .border-box {
+        border-radius: 25px 25px 25px 25px;
+        padding: 10px;
+    }
+.border-box > h5{
+    opacity:100%;
 }
 
 body {

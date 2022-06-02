@@ -1,7 +1,9 @@
 
 
 jQuery(function ($) {
-    $('.hello').hide();
+    $(document).foundation();
+    $('#welcome_reveal').foundation('open');
+    
 });
 
-console.log("HELLO THERE");
+console.log("HELLO THERE2");
