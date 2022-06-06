@@ -1,4 +1,6 @@
-
+.backgroundClass {
+    background-image: linear-gradient(to bottom right, #020024, #00d4ff);
+}
 
 .rounded_square_green_350_220_bottom {
     border-radius: 25% 25% 25% 25%;
