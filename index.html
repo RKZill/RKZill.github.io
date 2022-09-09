@@ -10,43 +10,50 @@
     
 
 </head>
-<!--
-<body class='backgroundClass'>
-    <div class='reveal large' id='feedbackModal' data-reveal>
+<body class="helloworld" >
+
+    <div class='reveal large revealStyling' id='feedbackModal' data-reveal>
         <div class="row">
             <div class='medium-12 column cell'>
 
                 <div class='border-box' style='background: rgb(209, 237, 246);'>
-                    <p>For one of my first projects at OSCIA, I was tasked with the creation of an improved feedback process</p>
-                    <p> The old feedback method involved the user clicking 'feedback', which opened the user's mail client and prepopulated the 'To' field. This works for it's purpose but could be improved.</p>
-                    <p style="margin:0"> To improve this process, there was two key questions that needed to be looked at: </p>
-                    <ol>
-                        <li> The user's experince; How can I design a visually appealing UI that involves an easy to use process?</li>
-                        <li> The data collected; How can we gain more useful data through user submitted feedback, when the user can submit as little as they want?</li>
-                    </ol>
+                    <p> The method of providing feedback on OSCIA's website was regarded as dated and non-intuitive.</p>
+                    <p> When clicking the feedback button, the user's mail client is opened with the CC field prepopulated. While this does work, it lacks a visually appealing UI and there are no guidelines to submitting feedback, resulting in very vauge messages.</p>
+                    <!--
+        <p> For one of my first projects at OSCIA, I was tasked with the creation of an improved feedback process</p>
+        <p> The old feedback method involved the user clicking 'feedback', which opened the user's mail client and prepopulated the 'To' field. This works for it's purpose but could be improved.</p>
+        <p style="margin:0"> To improve this process, there was two key questions that needed to be looked at: </p>
+        <ol>
+            <li> The user's experince; How can I design a visually appealing UI that involves an easy to use process?</li>
+            <li> The data collected; How can we gain more useful data through user submitted feedback, when the user can submit as little as they want?</li>
+        </ol>-->
                 </div>
+                <br />
             </div>
+            
             <div class='medium-7 cell column'>
                 <div class='border-box' style='background: #FFFFE0'>
-                    <p> To improve user experince, a pop-up with a form was chosen.</p>
-                    <p style="margin:0"> The form fields include validation which highlights the error field and dispalys a short error message.</p>
+                    <p> I was tasked with redesigning the feedback process, with the goal of providing a clean, inutuivie UI while simultanious increasing the amount of usable data collected. </p>
                 </div>
+                <br/>
                 <div class='border-box' style='background: #d1e7b7'>
-                    <p style="margin:0">To improve the data collected, a multitude of hidden data is collected to help further narrow down potential issues. This includes:</p>
-                    <ol>
-                        <li> User IP address. This has proved useful in real applications, where our IT was able to use this tool to identify spam feedback coming from outside the country</li>
-                        <li> User web browser. Knowing what browser the feedback came from can assist in the idenfication of browser specific issues.</li>
-                        <li>Current URL where feedback has been submitted, for percisely knowing where exactly the issue was found</li>
-                        <li> And much more! </li>
-                    </ol>
-                </div>
-                <div class='border-box' style='background: #ffcdd2'>
-                    <p> Overall, user's do not submit a great amount of feedback, but this tool has helped improved the user experince when submitting feedback, and greatly improved the usibility of feedback that is submitted</p>
+                    <p>To implement these changes a submittable form was chosen. This provdes advtnages as the UI can be customized rather than using the user's email client, and additional data can be transfered in the background.</p>
+                    <p> The feedback form can be seen in an image on the right side of this page.</p>
+                    <p>To improve accuracy and depth of the data collected, there are extra fields such as type of feedback, name, email, and more</p>
+                    <p>To further improve the value of the feedback, data is collected in the background silenty. This involves IP address, current URL, web browser, OS, exact time, and more. </p>
                 </div>
             </div>
             <div class="medium-5 cell column">
                 <img src='fedbackModalPostValidate.png' />
             </div>
+
+            <div class="medium-12 column cell">
+                <div class='border-box' style='background: #ffcdd2'>
+                    <p> Overall, the new format of submitting feedback was a great success. It provides a smoother user experince, guides the user into submitting complete feedback through input validation, and the increased data collection allowed the IT team to parse through spam emails much easier</p>
+                </div>
+            </div>
+
+
             <button class="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -59,15 +66,16 @@
         <div class='medium-9 cell column'>
             <div class='border-box' style='background: rgb(209, 237, 246);'>
                 <h5>
-                    I'm Ryan Kelsey, a 3rd year Computer Engineering student at the University of Guelph.
+                    I'm Ryan Kelsey, a 4th year Computer Engineering student at the University of Guelph.
                 </h5>
                 <br />
                 <h5>
-                    I am currently working at <u><a href='https://www.ontariosoilcrop.org/'>OSCIA</a></u>, as a Jr. Full Stack Developer<br />
+                    My work experince involves a 8-month co-op at <u><a href='https://www.ontariosoilcrop.org/'>OSCIA</a></u>, as a Jr. Full Stack Developer<br />
                     Primarily, my focus has been the creating new features that improve user experince, or developing internal tools to assist staff in the maintance of the website and it's database.
                 </h5>
                 <br />
             </div>
+            <br/>
 
             <div class="border-box" style="background: #FFFFE0">
                 <h5>
@@ -81,6 +89,7 @@
                     </ul>
                 </h5>
             </div>
+            <br/>
             <div class="border-box" style="background: #9CAF88 ">
                 <h5>
                     I am seeking a CO-OP work term for S23 and F23, open to both 4-month and 8-month terms.
@@ -91,24 +100,18 @@
         </div>
         <div class='medium-3 cell column'>
             <br /><br />
-            <img style='height:350px;width:220px;' src='image.jpg'>
-            <div class='rounded_square_green_350_220_top'></div>
-
-            <div class='rounded_square_green_350_220_bottom'></div>
-            </img>
-        </div>
+                  <div style='height:370px;width:250px; position:relative;'>
+                      <img style='height:370px;width:250px;' class="border-box" src='image.jpg'></img>
+                      <div style="position:absolute; left:0px; top:0px;" class='rounded_square_green_350_220_top'></div>
+                      <div style="position:absolute; left:150px; top:270px;" class='rounded_square_green_350_220_top'></div>
+                  </div>
     </div>
-    <br /><br />
-
-
-    <!--</div>-->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-
+    <br/>
+    <br/>
 </body>
+
+
+
+
 <script src="index.js" type="text/javascript" language="Javascript"></script>
 </html>
